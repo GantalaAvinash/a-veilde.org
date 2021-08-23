@@ -132,3 +132,24 @@ nav{
         height:50px;
       }
 }
+.high h1{
+    text-align:center;
+    padding-top: 270px;
+    font-size: 50px;
+    color: white;
+}
+hr{
+    width: 280px;
+    margin: auto;
+}
+div p {
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+}
+div p a {
+    color: wheat;
+}
+footer h2{
+    text-align: center;
+}
