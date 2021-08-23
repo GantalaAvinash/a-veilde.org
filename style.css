@@ -70,7 +70,6 @@ nav{
     right: -100%;
     padding-left: 2%;
     padding-top: 100px;
-
 }
 .shortcut-links a img {
     width: 20px;
@@ -79,7 +78,7 @@ nav{
 .shortcut-links a {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     width: fit-content;
     flex-wrap: wrap;
 }
