@@ -111,8 +111,8 @@ nav{
 }
 
 .hero{
-    background-image: url(https://i.ibb.co/qjCRNb1/background.jpg);
-    background-size: cover;
+    background-color: #fff;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     height: 89vh;
@@ -135,11 +135,12 @@ nav{
     text-align:center;
     padding-top: 270px;
     font-size: 50px;
-    color: white;
+    color: #000;
 }
 hr{
     width: 280px;
     margin: auto;
+    border: 1px solid red;
 }
 div p {
     text-align: center;
@@ -147,7 +148,7 @@ div p {
     font-size: 18px;
 }
 div p a {
-    color: wheat;
+    color: #000;
 }
 footer h2{
     text-align: center;
