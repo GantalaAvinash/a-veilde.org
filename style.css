@@ -24,24 +24,12 @@ nav{
     top:0;
     z-index: 10;
 }
-.nav-right img{
-    width: 25px;
-    margin-right: 25px;
-}
-.nav-right .user-icon{
-    width: 30px;
-    border-radius: 50%;
-    margin-right: 0;
-}
 .nav-left .menu-icon{
     width: 22px;
     margin-right: 25px;
 }
 .nav-logo .logo{
     width: 120px;
-}
-.nav-middle .mic-icon{
-    width: 16px;
 }
 .nav-middle .search-box{
     border: 1px solid #ccc;
@@ -83,29 +71,6 @@ nav{
     flex-wrap: wrap;
 }
 
-.sidebar hr{
-    border: 0;
-    height: 1px;
-    background: #ccc;
-    width: 85%;
-}
-.subscribe-list h3{
-    font-size: 13px;
-    margin: 20px 0;
-    color: #ed3833;
-}
-.subscribe-list a{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    width: fit-content;
-    flex-wrap: wrap;
-}
-.subscribe-list a img{
-    width: 25px;
-    border-radius: 50%;
-    margin-right:20px;
-}
 .small-sidebar{
     right: 0
 }
@@ -153,3 +118,155 @@ div p a {
 footer h2{
     text-align: center;
 }
+
+@media only screen and (max-width: 770px){
+    nav{
+        padding: 5px 2%;
+        justify-content: space-between;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        background: white;
+        position: sticky;
+        top:0;
+        z-index: 10;
+    }
+    .nav-left .menu-icon{
+        width: 22px;
+        margin-right: 10px;
+    }
+    .nav-middle .search-box{
+        border: 1px solid #ccc;
+        margin-left:20px;
+        padding:8px 8px;
+        border-radius:25px;
+    }
+
+    .nav-middle .search-box input{
+        width: 180px;
+        border: 0;
+        outline: 0;
+        background: transparent;
+    }
+    .nav-middle .search-box img{
+        width: 15px;
+    }
+
+    .sidebar{
+        background: #fff;
+        width: 25%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100;
+        padding-right: 160px;
+        padding-top: 50px;
+    }
+    .shortcut-links a {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2px;
+        width: fit-content;
+        flex-wrap: wrap;
+    }
+    
+    .small-sidebar{
+        right: 0
+    }
+    .high h1{
+        text-align:center;
+        padding-top: 170px;
+        font-size: 30px;
+        color: #000;
+    }
+    hr{
+        width: 160px;
+        margin: auto;
+        border: 1px solid red;
+    }
+    div p {
+        text-align: center;
+        padding-top: 8px;
+        font-size: 14px;
+    }
+    div p a {
+        color: #000;
+    }
+    footer h2{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav{
+        padding: 5px 2%;
+        justify-content: space-between;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        background: white;
+        position: sticky;
+        top:0;
+        z-index: 10;
+    }
+    .nav-left .menu-icon{
+        width: 22px;
+        margin-right: 10px;
+    }
+    .nav-middle .search-box{
+        border: 1px solid #ccc;
+        margin-left:20px;
+        padding:8px 8px;
+        border-radius:25px;
+    }
+
+    .nav-middle .search-box input{
+        width: 180px;
+        border: 0;
+        outline: 0;
+        background: transparent;
+    }
+    .nav-middle .search-box img{
+        width: 15px;
+    }
+
+    .sidebar{
+        background: #fff;
+        width: 25%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100;
+        padding-right: 160px;
+        padding-top: 50px;
+    }
+    .shortcut-links a {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2px;
+        width: fit-content;
+        flex-wrap: wrap;
+    }
+    
+    .small-sidebar{
+        right: 0
+    }
+    .high h1{
+        text-align:center;
+        padding-top: 170px;
+        font-size: 40px;
+        color: #000;
+    }
+    hr{
+        width: 190px;
+        margin: auto;
+        border: 1px solid red;
+    }
+    div p {
+        text-align: center;
+        padding-top: 8px;
+        font-size: 18px;
+    }
+    div p a {
+        color: #000;
+    }
+    footer h2{
+        text-align: center;
+    }
+  }
