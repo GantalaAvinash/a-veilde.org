@@ -1,0 +1,15 @@
+<nav class="flex-div">
+            <div class="nav-logo flex-div">
+                <h1>Aa</h1>
+            </div>
+            <div class="nav-middle flex-div">
+                <div class="search-box flex-div">
+                    <input type="text" placeholder="search">
+                    <img src="images/search.png">
+                </div>
+                <!-- <img src="images/voice-search.png" class="mic-icon"> -->
+            </div>
+            <div class="nav-left flex-div">
+                <img src="images/dots-icon.jpg" class="menu-icon">
+            </div>
+        </nav>
